@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    /* list-style: none; */
+}
+
+
+.home_item{
+    text-align: center;
+    justify-content: center;
+    padding: 2em 02em 0; 
+
+}
+
+header{
+    height: 220px;
+    background-image:url(img/imagen-RV.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    align-items: center
+}
+.logo{
+    float: left;
+    
+    
+}
+
+#logo-img {
+	width: min(50vw, 200px);
+}
+
+
+.button{
+    /* background-color:white; */
+    cursor: pointer;
+    padding: 0.375em 0.625em;
+    font-size: 0.625em;
+    color: black;
+
+}
+
+.button3{
+    cursor: pointer;
+    padding: 0.375em 0.625em;
+    font-size: 0.625em;
+}
+
+  #check_menu{
+    display: none;
+  }
+  h1{
+    font-weight: 600;
+    /* font-size:6em; */
+    padding-left: 2em;
+    padding-right: 2em;
+    color:rgb(241, 182, 104)
+}
+
+.card_item{
+    width: 46%;
+   
+}
+.card{
+    width: 18.75em;
+    background-color: #9c9999;
+    border-radius: 0.3125em;
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    
+
+}
+main h2,p{
+    color: black;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25em;
+}
+.card img{
+     width: 100%;
+     border-radius: 0.3125em;
+     margin-bottom: 0.625em;
+} 
+
+
+
+    
+    
+
+
+
+
+/* FOOTER*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(36,33,34,255);
+    /* background-color: rgba(0, 0, 0, 0.825); */
+
+}
+.facebook{
+    width: 1.875em;
+}
+.twitter{
+    width: 2.5em;
+}
+.instagram{
+    width: 1.875em;
+}
+
+  footer a,p{
+    color:rgb(199, 197, 197);
+    
+} 
+
+
+
+
+
+
+
+
+
