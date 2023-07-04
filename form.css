@@ -1,8 +1,11 @@
-
+.inicio{
+  background-color: rgb(243, 248, 243);  
+  display:inline-block ;
+}
 button{
     /* color: rgb(26, 4, 105); */
      background-color: rgb(123, 235, 123);   
-     margin: 7px;
+     margin: 1rem;
      border-radius: 1em;
      display: flex;
      justify-content: right;
@@ -22,12 +25,12 @@ button{
 } */
 form{
    background-color: rgb(51, 30, 235);
-   box-shadow: 30px 30px 20px 0px rgba(163, 163, 159, 0.521) ;
+   box-shadow: 1.875rem 1.875rem 1.25rem 0rem rgba(163, 163, 159, 0.521) ;
    
     /* centrar formulario */
     
     margin:auto;
-    width: 500px;
+    width: 31rem;
 
     /* esquema formulario */
     padding: 1em;
@@ -46,20 +49,20 @@ form li+li{
 
 }
 
-label {
-    /* Tamaño y alineación uniforme */
-    display: inline-block;
-    width: 90px;
+ /* .label-form{  */
+    /* Tamaño y alineación uniforme  */
+     /* display: inline-block;
+    width: 5rem; */
     
-  }
+  /* }  */
 
-  input{
+   .input_form{
     
-    width: 370px;
+    width: 10.625rem;
     
     
-  }
-  .privacy{
+  }  
+  /* .privacy{
     display:inline-flex;
     
   }
@@ -67,6 +70,6 @@ label {
     
      vertical-align: bottom;    
 } 
-  
+   */
   
 

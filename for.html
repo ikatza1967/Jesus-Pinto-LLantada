@@ -10,7 +10,7 @@
     <title>FORMULARIO</title>
 </head>
     <body>
-        <!-- <header class="home_item flex_row">
+        <header class="home_item flex_row">
             <nav class="home_item">
                 <input type="checkbox" id="check_menu">
     
@@ -23,9 +23,16 @@
                 </div> -->
     
                 <ul class="menu">
-                    <button class="navbarform" onclick="location.href='jesus.html'">Inicio</button>
+                    <!-- <button class="navbarform" onclick="location.href='index.html'">Inicio</button> -->
                     <!-- <button class="navbarform1" onclick="location.href='for.html'">Formulario</button> -->
                 </ul>
+                <ul class="menu">
+                    <button class="inicio"onclick="location.href='index.html'"">Inicio</button>
+                    <!-- <button class="button1">Inicio</button> -->
+                    <!-- <button class="button2">Contacto</button>   -->
+                    <!-- <button class="inicio" onclick="location.href='for.html'">Formulario</button> -->
+                </ul>
+    
     
             </nav>
            </header>
@@ -35,34 +42,35 @@
        <form action="/my-handling-form-page" method="get">
         <ul>
             <li>
-               <label for="name">Nombre:</label>
-                  <input type="text" id="name" name="user_name">
+               <label class="label_form"for="name">Nombre</label>
+                  <input  class="input_form"  type="text" id="name" name="user_name"required>
              </li>
 
 
                     <li>
-                     <label for="Email">Correo Electonico:</label>
-                         <input type="text" id="name" name="email">
+                     <label class="label_form" for="Email">Email  :</label>
+                         <input class="input_form"   type="text" id="email" name="email"required>
                     </li>
 
                     <li>
-                        <label for="text">Contraseña:</label>
-                          <input type="text" id="name" name="contraseña">
+                        <label class="label_form"for="text">Pasword</label>
+                          <input class="input_form"type="text" id="contraseña" name="contraseña"required>
                   </li>
-
-                  <li class="button">
+                  <li>
+                    <input  class="checkitem" type="checkbox" id="privacy" name="privacy" onchange="verificarPoliticaPrivacidad()"> 
+                    <label class="privacy"for="privacy">Acepto la política de privacidad</label>
+                </li> 
+                <li class="button">
                         
-                    <button type="submit">enviar</button>
-                    <li>
-                        <input  class="checkitem" type="checkbox" id="privacy" name="privacy">
-                        <label class="privacy"for="privacy">Acepto la política de privacidad</label>
-                    </li> 
+                    <button type="submit" id="open-modal" disabled>enviar</button>
+                    
                 </li>   
           
             </li>
            </ul>
        </form>
    </div>
+   <script src="form.js"></script>
        </form>
     </div>
     
