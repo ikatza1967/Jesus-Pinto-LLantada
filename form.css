@@ -26,11 +26,16 @@ button{
 form{
    background-color: rgb(51, 30, 235);
    box-shadow: 1.875rem 1.875rem 1.25rem 0rem rgba(163, 163, 159, 0.521) ;
+   margin: 2rem;
    
     /* centrar formulario */
+    width: 30rem;
+    align-items: center;
+    display: flex;
+    align-items: center; 
+    margin-left: 40em;
+    margin-right:40em;
     
-    margin:auto;
-    width: 31rem;
 
     /* esquema formulario */
     padding: 1em;
@@ -58,7 +63,7 @@ form li+li{
 
    .input_form{
     
-    width: 10.625rem;
+    width: 20rem;
     
     
   }  

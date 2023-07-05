@@ -84,6 +84,19 @@ main {
      border-radius: 0.3125em;
      margin-bottom: 0.625em;
 } 
+.dia{
+    background-color: cyan;
+    border-radius:1em ;
+}
+.rv{
+    /* width: 30em;
+    
+    margin-bottom: 2em; */
+    width: 30em;
+     border-radius: 1em;
+     margin-bottom: 2em;
+     margin-left: 20em;
+}
 
 
 
